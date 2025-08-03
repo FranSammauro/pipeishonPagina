@@ -1,6 +1,7 @@
 // Products data - Productos reales de Pipeishon
 const productsData = {
   categories: ["Herramientas", "Audio", "RC Cars", "Pedales"],
+  // nose porque no me muestra las imagenes, la ruta esta bien puesta y deberia mostrarse.
   products: [
     {
       id: 1,
@@ -10,8 +11,8 @@ const productsData = {
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
       images: [
-        "/img/pipeishonone1.jpg", // Imagen principal (agregar manualmente)
-        "/img/pipeishonone2.jpg",
+        "/img/pipeishonone1.jpg", // Imagen principal o portada
+        "/img/pipeishonone2.jpg", // Imagenes adicionales
         "/img/pipeishonone3.jpg",
       ],
     },
@@ -37,8 +38,8 @@ const productsData = {
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in dui mauris. Vivamus hendrerit arcu sed erat molestie vehicula. Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor. Ut in nulla enim. Phasellus molestie magna non est bibendum non venenatis nisl tempor.",
       images: [
-        "/img/pipeishonrminic1.jpg", // Agregar manualmente
-        "/img/pipeishonrminic2.jpg", // Agregar manualmente
+        "/img/pipeishonrminic1.jpg",
+        "/img/pipeishonrminic2.jpg",
         "/img/pipeishonrminic3.jpg",
       ],
     },
@@ -50,8 +51,8 @@ const productsData = {
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sollicitudin velit sed leo. Ut pharetra augue nec augue. Nam elit agna, endrerit sit amet, tincidunt ac, viverra sed, nulla. Donec porta diam eu massa. Quisque diam lorem, interdum vitae, dapibus ac, scelerisque vitae, pede.",
       images: [
-        "/img/pipeishonrc1.jpg", // Agregar manualmente
-        "/img/pipeishonrc2.jpg", // Agregar manualmente
+        "/img/pipeishonrc1.jpg",
+        "/img/pipeishonrc2.jpg",
         "/img/pipeishonrc3.jpg",
         "/img/pipeishonrc4.jpg",
       ],
@@ -64,9 +65,9 @@ const productsData = {
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.",
       images: [
-        "/img/pipeishonlight1.jpg", // Agregar manualmente
-        "/img/pipeishonlight2.jpg", // Agregar manualmente
-        "/img/pipeishonlight3.jpg", // Agregar manualmente
+        "/img/pipeishonlight1.jpg",
+        "/img/pipeishonlight2.jpg",
+        "/img/pipeishonlight3.jpg",
       ],
     },
     {
@@ -86,9 +87,9 @@ const productsData = {
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.",
       images: [
-        "/img/pipeishonradio1.jpg", // Agregar manualmente
-        "/img/pipeishonradio2.jpg", // Agregar manualmente
-        "/img/pipeishonradio3.jpg", // Agregar manualmente
+        "/img/pipeishonradio1.jpg",
+        "/img/pipeishonradio2.jpg",
+        "/img/pipeishonradio3.jpg",
       ],
     },
     {
@@ -99,10 +100,10 @@ const productsData = {
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pedal de distorsión para guitarra con sonido vintage auténtico. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
       images: [
-        "/img/pipeishonpedal1.jpg", // Agregar manualmente
-        "/img/pipeishonpedal2.jpg", // Agregar manualmente
-        "/img/pipeishonpedal3.jpg", // Agregar manualmente
-        "/img/pipeishonpedal4.jpg", // Agregar manualmente
+        "/img/pipeishonpedal1.jpg",
+        "/img/pipeishonpedal2.jpg",
+        "/img/pipeishonpedal3.jpg",
+        "/img/pipeishonpedal4.jpg",
       ],
     },
   ],
