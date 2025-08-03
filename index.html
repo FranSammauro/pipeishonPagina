@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PIPEISHON | Tienda Retro</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <h1 class="logo-text">PIPEISHON</h1>
+                <span class="logo-subtitle">TIENDA RETRO</span>
+            </div>
+            <nav class="nav">
+                <button class="nav-btn" onclick="showHome()">INICIO</button>
+                <button class="nav-btn" onclick="showProducts()">PRODUCTOS</button>
+                <button class="nav-btn cart-btn" onclick="toggleCart()">
+                    CARRITO (<span id="cart-count">0</span>)
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main">
+        <!-- Home Section -->
+        <section id="home-section" class="section active">
+            <div class="hero">
+                <div class="hero-content">
+                    <h2 class="hero-title">BIENVENIDO PIPEISHON STORE</h2>
+                    <p class="hero-subtitle">Pipeishon Or Nothing</p>
+                    <button class="cta-btn" onclick="showProducts()">ENTRAR A LA TIENDA</button>
+                </div>
+                <div class="hero-clouds"></div>
+            </div>
+        </section>
+
+        <!-- Game Section -->
+        <section class="game-section">
+            <h3 class="game-title">🐍 JUEGO SNAKE RETRO 🐍</h3>
+            <div class="game-container">
+            <canvas id="gameCanvas" width="400" height="400"></canvas>
+            </div>
+            <div class="game-controls">
+            Usa las teclas IJKL para jugar • Recoge comida para crecer • ¡No choques con las paredes!
+            </div>
+            <div class="game-score">
+            Puntuación: <span id="gameScore">0</span> | Récord: <span id="highScore">0</span>
+            </div>
+            <button class="cta-btn" onclick="startGame()" style="margin-top: 10px;">INICIAR JUEGO</button>
+        </section>
+
+        <!-- Products Section -->
+        <section id="products-section" class="section">
+            <div class="container">
+                <h2 class="section-title">CATÁLOGO DE PRODUCTOS</h2>
+                
+                <!-- Category Filter -->
+                <div class="category-filter">
+                    <button class="filter-btn active" data-category="all">TODOS</button>
+                    <div id="category-buttons"></div>
+                </div>
+
+                <!-- Products Grid -->
+                <div id="products-grid" class="products-grid"></div>
+            </div>
+        </section>
+
+        <!-- Product Detail Modal -->
+        <div id="product-modal" class="modal">
+            <div class="modal-content">
+                <span class="close-btn" onclick="closeProductModal()">&times;</span>
+                <div id="product-detail"></div>
+            </div>
+        </div>
+
+        <!-- Cart Modal -->
+        <div id="cart-modal" class="modal">
+            <div class="modal-content">
+                <span class="close-btn" onclick="toggleCart()">&times;</span>
+                <h2 class="modal-title">CARRITO DE COMPRAS</h2>
+                <div id="cart-items"></div>
+                <div class="cart-total">
+                    <strong>TOTAL: $<span id="cart-total">0.00</span></strong>
+                </div>
+                <button class="checkout-btn" onclick="checkout()">FINALIZAR COMPRA</button>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 PIPEISHON - Todos los derechos reservados</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
