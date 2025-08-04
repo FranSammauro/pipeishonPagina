@@ -1,19 +1,18 @@
-// Products data - Productos reales de Pipeishon
+// Products data
 const productsData = {
-  categories: ["Herramientas", "Audio", "RC Cars", "Pedales"],
-  // nose porque no me muestra las imagenes, la ruta esta bien puesta y deberia mostrarse.
+  categories: ["Consolas","Herramientas", "Audio", "RC Cars", "Pedales"],
   products: [
     {
       id: 1,
       name: "Pipeishon One",
       price: 15999.99,
-      category: "Herramientas",
+      category: "Consolas",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        "Presentamos a la pipeishon One, una consola de Videojuegos retro la cual fue pensada para revivir esa nostalgia de los videojuegos retro de los 80's con una experiencia extraordinaria",
       images: [
-        "/img/pipeishonone1.jpg", // Imagen principal o portada
-        "/img/pipeishonone2.jpg", // Imagenes adicionales
-        "/img/pipeishonone3.jpg",
+        "img/fotoPipeishon1.jpeg", // Imagen principal o portada
+        "img/fotoPipeishon2.jpeg", // Imagenes adicionales
+        "img/fotoPipieshon4.jpeg",
       ],
     },
     {
@@ -22,12 +21,12 @@ const productsData = {
       price: 8999.99,
       category: "Audio",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Mauris viverra veniam sit amet lacus cursus de congue. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo.",
+        "Presentamos a la Pipeishon Sound, un amplificador casero pensado para darte la mejor experiencia de audio que vas a escuchar.",
       images: [
-        "/img/pipeishonsound1.jpg",
-        "/img/pipeishonsound2.jpg",
-        "/img/pipeishonsound3.jpg",
-        "/img/pipeishonsound4.jpg",
+        "img/pipeishonsound1.jpeg",
+        "img/pipeishonsound2.jpeg",
+        "img/pipeishonsound3.jpeg",
+        "img/pipeishonsound4.jpeg",
       ],
     },
     {
@@ -36,11 +35,11 @@ const productsData = {
       price: 12999.99,
       category: "RC Cars",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in dui mauris. Vivamus hendrerit arcu sed erat molestie vehicula. Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor. Ut in nulla enim. Phasellus molestie magna non est bibendum non venenatis nisl tempor.",
+        "Presentamos el Pipeishon MINI RcCar, un mini autito a control remoto con el cual nunca te vas a aburrir!! esta version miniaturizada fue elaborada en los talleres artesanales de Pipeishon Studios",
       images: [
-        "/img/pipeishonrminic1.jpg",
-        "/img/pipeishonrminic2.jpg",
-        "/img/pipeishonrminic3.jpg",
+        "img/pipeishonminirc1.jpeg",
+        "img/pipeishonminirc2.jpeg",
+        "img/pipeishonrminic3.jpeg",
       ],
     },
     {
@@ -49,12 +48,12 @@ const productsData = {
       price: 25999.99,
       category: "RC Cars",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sollicitudin velit sed leo. Ut pharetra augue nec augue. Nam elit agna, endrerit sit amet, tincidunt ac, viverra sed, nulla. Donec porta diam eu massa. Quisque diam lorem, interdum vitae, dapibus ac, scelerisque vitae, pede.",
+        "Presentamos el Pipeishon RcCar. Un auto a control remoto todo terreno 4x4 el cual puede superar los obstaculos de cualquier terreno donde lo pruebes, ofrece la mejor tecnologia en autitos a control remoto y garantiza la diversion",
       images: [
-        "/img/pipeishonrc1.jpg",
-        "/img/pipeishonrc2.jpg",
-        "/img/pipeishonrc3.jpg",
-        "/img/pipeishonrc4.jpg",
+        "img/pipeishonrc1.jpeg",
+        "img/pipeishonrc2.jpeg",
+        "img/pipeishonrc3.jpeg",
+        "img/pipeishonrc4.jpeg",
       ],
     },
     {
@@ -63,11 +62,11 @@ const productsData = {
       price: 4999.99,
       category: "Herramientas",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.",
+        "Presentamos la Pipeishon Light, una de las mejores linternas que vas a comprar. con la Pipeishon Light nunca te vas a quedar a oscuras ya que tiene una potencia de 100000000 de Lumines y una bateria que dura 3 dias encendida. ¡¡¡hacé la noche de día con la Pipeishon Light!!!",
       images: [
-        "/img/pipeishonlight1.jpg",
-        "/img/pipeishonlight2.jpg",
-        "/img/pipeishonlight3.jpg",
+        "img/pipeishonlight1.jpeg",
+        "img/pipeishonlight2.jpeg",
+        "img/pipeishonlight3.jpeg",
       ],
     },
     {
@@ -76,8 +75,8 @@ const productsData = {
       price: 7999.99,
       category: "Herramientas",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cras mattis consectetur purus sit amet fermentum. Donec id elit non mi porta gravida at eget metus.",
-      images: ["pipeishontool1.jpg", "pipeishontool2.jpg", "pipeishontool3.jpg"],
+        "Presentamos la Pipeishon Tool, una herramienta indispensable en tu dia a dia, con la Pipeishon Tool nunca mas vas a tener problemas cuando desarmes y armes cosas ya que como con todos nuestros productos ofrecemos una calidad premium superior a cualquier otra, esta no es la exepcion.",
+      images: ["img/pipeishontool1.jpeg", "img/pipeishontool2.jpeg", "img/pipeishontool3.jpeg"],
     },
     {
       id: 7,
@@ -85,11 +84,11 @@ const productsData = {
       price: 6999.99,
       category: "Audio",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.",
+        "Presentamos la Pipeishon Radio, una radio en la cual vas a poder escuchar tus frecuencias preferidas por la mañana o cuando viajas en tu auto, con esta radio de alta calidad auditiva podras acceder a nuestra frecuencia 5.0 para escuchar nuestro podcast de Pipeishon y enterarte de muchas cosas",
       images: [
-        "/img/pipeishonradio1.jpg",
-        "/img/pipeishonradio2.jpg",
-        "/img/pipeishonradio3.jpg",
+        "img/pipeishonradio1.jpeg",
+        "img/pipeishonradio4.jpeg.jpeg",
+        "img/pipeishonradio5.jpeg",
       ],
     },
     {
@@ -98,12 +97,13 @@ const productsData = {
       price: 18999.99,
       category: "Pedales",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pedal de distorsión para guitarra con sonido vintage auténtico. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+        "Presentamos el Pipeishon Pedal Vintage, un pedal de distorsion para guitarras electricas con el cual vas a poder tocar tus canciones preferidas de Iron Maiden con una calidad de sonido premium🤘🤘.",
       images: [
-        "/img/pipeishonpedal1.jpg",
-        "/img/pipeishonpedal2.jpg",
-        "/img/pipeishonpedal3.jpg",
-        "/img/pipeishonpedal4.jpg",
+        "img/pipeishonpedal1.jpeg",
+        "img/pipeishonpedal2.jpeg",
+        "img/pipeishonpedal3.jpeg",
+        "img/pipeishonpedal4.jpeg",
+        "img/pipeishonpedal5.jpeg"
       ],
     },
   ],
