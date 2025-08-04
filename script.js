@@ -4,11 +4,11 @@ const productsData = {
   products: [
     {
       id: 1,
-      name: "Pipeishon One",
-      price: 15999.99,
+      name: "Pipeishon ONE - Consola de Juegos Indie",
+      price: 310000.00,
       category: "Consolas",
       description:
-        "Presentamos a la pipeishon One, una consola de Videojuegos retro la cual fue pensada para revivir esa nostalgia de los videojuegos retro de los 80's con una experiencia extraordinaria",
+        "Olvida las consolas producidas en masa. La Pipeishon ONE es una experiencia de juego retro, construida a mano para verdaderos entusiastas. Cada botón, cada conexión y cada línea de código han sido ensamblados con un solo objetivo: recuperar la diversión pura y directa de los clásicos. Con una selección de juegos icónicos y un diseño ergonómico y robusto, no es una consola más en el mercado; es TU consola, una pieza única de la historia de los videojuegos, creada en nuestro taller.",
       images: [
         "img/fotoPipeishon1.jpeg", // Imagen principal o portada
         "img/fotoPipeishon2.jpeg", // Imagenes adicionales
@@ -17,11 +17,11 @@ const productsData = {
     },
     {
       id: 2,
-      name: "Pipeishon Sound",
-      price: 8999.99,
+      name: "Pipeishon SOUND - Preamplificador y EQ de Estudio",
+      price: 320000.99,
       category: "Audio",
       description:
-        "Presentamos a la Pipeishon Sound, un amplificador casero pensado para darte la mejor experiencia de audio que vas a escuchar.",
+        "En un mundo digital, el sonido analógico es un lujo. El Pipeishon SOUND es un amplificador integrado con preamplificador y ecualizador de cuatro bandas diseñado para los que escuchan con el alma. Cada perilla te permite esculpir el sonido con la precisión de un artesano, añadiendo la calidez, la profundidad y el carácter que solo los circuitos analógicos pueden ofrecer. Con su control de volumen deslizante de alta fidelidad y su construcción en madera, es más que un equipo de audio: es el corazón de tu sistema de sonido, una invitación a redescubrir tu música.",
       images: [
         "img/pipeishonsound1.jpeg",
         "img/pipeishonsound2.jpeg",
@@ -31,11 +31,11 @@ const productsData = {
     },
     {
       id: 3,
-      name: "Pipeishon MINI RcCar",
-      price: 12999.99,
+      name: "Pipeishon MINIRcCar - Micro Autito de Precisión",
+      price: 180000,
       category: "RC Cars",
       description:
-        "Presentamos el Pipeishon MINI RcCar, un mini autito a control remoto con el cual nunca te vas a aburrir!! esta version miniaturizada fue elaborada en los talleres artesanales de Pipeishon Studios",
+        "La velocidad es un arte, y la miniaturización es su máxima expresión. El MINIRcCar es un ejercicio de ingeniería de precisión, un vehículo de radiocontrol completo ensamblado en un chasis que cabe en la palma de tu mano. Cada componente ha sido cuidadosamente seleccionado e integrado para ofrecer una agilidad y una respuesta instantáneas. No es un juguete, es un desafío a tus reflejos y una demostración de que la adrenalina puede venir en el frasco más pequeño.",
       images: [
         "img/pipeishonminirc1.jpeg",
         "img/pipeishonminirc2.jpeg",
@@ -44,11 +44,11 @@ const productsData = {
     },
     {
       id: 4,
-      name: "Pipeishon RcCar",
-      price: 25999.99,
+      name: "Pipeishon RcCar - Crawler de Exploración Custom",
+      price: 420000.99,
       category: "RC Cars",
       description:
-        "Presentamos el Pipeishon RcCar. Un auto a control remoto todo terreno 4x4 el cual puede superar los obstaculos de cualquier terreno donde lo pruebes, ofrece la mejor tecnologia en autitos a control remoto y garantiza la diversion",
+        "Construido para conquistar, no para competir. Este Crawler RC no está hecho para la pista, está hecho para el mundo real. Con un chasis modificado, suspensión de alto recorrido y una electrónica de potencia que entrega torque cuando más lo necesitas, cada roca, cada obstáculo y cada pendiente se convierten en una oportunidad para demostrar su habilidad. El terreno pone los límites, el Pipeishon RcCar te da las herramientas para superarlos.",
       images: [
         "img/pipeishonrc1.jpeg",
         "img/pipeishonrc2.jpeg",
@@ -58,11 +58,11 @@ const productsData = {
     },
     {
       id: 5,
-      name: "Pipeishon Light",
-      price: 4999.99,
+      name: "Pipeishon LIGHT - Reflector Táctico de Alta Potencia",
+      price: 180000.99,
       category: "Herramientas",
       description:
-        "Presentamos la Pipeishon Light, una de las mejores linternas que vas a comprar. con la Pipeishon Light nunca te vas a quedar a oscuras ya que tiene una potencia de 100000000 de Lumines y una bateria que dura 3 dias encendida. ¡¡¡hacé la noche de día con la Pipeishon Light!!!",
+        "No la llames linterna. La Pipeishon LIGHT es una herramienta de iluminación profesional, diseñada para las condiciones más exigentes. Construida sobre un chasis industrial y equipada con un sistema de lentes de precisión, proyecta un haz de luz intenso y enfocado capaz de cortar la oscuridad más densa. Su robustez y diseño funcional la convierten en la compañera ideal para trabajos de campo, exploraciones nocturnas o cualquier situación donde la fiabilidad no es una opción, es una necesidad.",
       images: [
         "img/pipeishonlight1.jpeg",
         "img/pipeishonlight2.jpeg",
@@ -71,20 +71,20 @@ const productsData = {
     },
     {
       id: 6,
-      name: "Pipeishon Tool",
-      price: 7999.99,
+      name: "Pipeishon TOOL - Herramienta de Potencia Inteligente",
+      price: 85000.99,
       category: "Herramientas",
       description:
-        "Presentamos la Pipeishon Tool, una herramienta indispensable en tu dia a dia, con la Pipeishon Tool nunca mas vas a tener problemas cuando desarmes y armes cosas ya que como con todos nuestros productos ofrecemos una calidad premium superior a cualquier otra, esta no es la exepcion.",
+        "Potencia que puedes ver, confianza que puedes sentir. La Pipeishon TOOL fue creada para ser la herramienta definitiva: robusta, ergonómica y, sobre todo, fiable. Su sistema de potencia de Litio de alto rendimiento te asegura un rendimiento constante, mientras que su innovador indicador de batería de 4 niveles te permite saber siempre cuánta energía te queda. Es la herramienta que trabaja contigo, no contra ti.",
       images: ["img/pipeishontool1.jpeg", "img/pipeishontool2.jpeg", "img/pipeishontool3.jpeg"],
     },
     {
       id: 7,
-      name: "Pipeishon Radio",
-      price: 6999.99,
+      name: "Pipeishon RADIO - Receptor de Frecuencias Híbrido",
+      price: 210000,
       category: "Audio",
       description:
-        "Presentamos la Pipeishon Radio, una radio en la cual vas a poder escuchar tus frecuencias preferidas por la mañana o cuando viajas en tu auto, con esta radio de alta calidad auditiva podras acceder a nuestra frecuencia 5.0 para escuchar nuestro podcast de Pipeishon y enterarte de muchas cosas",
+        "El alma de la radio clásica, con la ingeniería del siglo XXI. La Pipeishon RADIO es un homenaje a la época dorada de la radiodifusión, pero construida para el mundo de hoy. Su corazón, un sintonizador de alta fidelidad rescatado y restaurado, garantiza una recepción clara y estable. Pero su verdadera innovación reside en su sistema de alimentación cuádruple: úsala con 220V en casa, con 12V en tu taller, con su batería interna para llevarla al parque o con pilas AA en una emergencia. Es la única radio que necesitarás, lista para todo. Ademas, podras escuchar nuestra frecuencia de 98.5Mhz con podcast y noticias para entrenerte todo el dia!!!.",
       images: [
         "img/pipeishonradio1.jpeg",
         "img/pipeishonradio4.jpeg.jpeg",
@@ -93,11 +93,11 @@ const productsData = {
     },
     {
       id: 8,
-      name: "Pipeishon Pedal Vintage",
-      price: 18999.99,
+      name: "Pipeishon FUZZ (Edición Germanio) - Pedal de Tono Vintage",
+      price: 160000,
       category: "Pedales",
       description:
-        "Presentamos el Pipeishon Pedal Vintage, un pedal de distorsion para guitarras electricas con el cual vas a poder tocar tus canciones preferidas de Iron Maiden con una calidad de sonido premium🤘🤘.",
+        "Hay sonidos que definen generaciones. El 'fuzz' cálido, cremoso e impredecible de los transistores de germanio es uno de ellos. Es el tono que buscó Hendrix, el que definió el rock de los 60. El Pipeishon FUZZ no es un pedal de distorsión, es una máquina del tiempo. Cada unidad será ensamblada a mano, con transistores 'New Old Stock' medidos y seleccionados individualmente para lograr ese carácter único e irrepetible. Una edición limitada para los verdaderos cazadores de tono. Prepárate para conectar tu guitarra a la historia.",
       images: [
         "img/pipeishonpedal1.jpeg",
         "img/pipeishonpedal2.jpeg",
